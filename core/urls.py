@@ -44,5 +44,12 @@ urlpatterns = [
         view  = include("inventory.urls")
     ),
 
+    # /============================= Order URLs ====================/ #
+
+    path(
+        route = 'api/',
+        view  = include("orders.urls")
+    ),
+
     
 ]
