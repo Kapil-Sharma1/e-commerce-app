@@ -1,5 +1,7 @@
 # e-commerce-app
 
+A RESTful backend application for keeping products inventory & for placing and managing orders
+
 ## Installation
 
 - Clone/pull/download this repository
