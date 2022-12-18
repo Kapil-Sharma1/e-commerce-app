@@ -6,13 +6,14 @@ A RESTful backend application for keeping products inventory & for placing and m
 
 - Clone/pull/download this repository
 - Create a virtualenv with virtualenv env and install dependencies with pip install -r requirements.txt
-- Configure your .env variables
-- Rename your project with python manage.py rename <yourprojectname> <newprojectname>
+- Thre is a db.sqlite3 file included in this repository, so there is no need to run the make migrations.
     
 ## Features
 
 - Admin panel to manage Users, Staff, Products, Categories, Cart, Orders, OrderInfo
 - Register, Login, Logout functionalities with JWT 
-- User can add product(s) in cart and can also view their cart.
+- Admin can create, update, delete categories and products.
+- User can add product(s) in their cart and can also view their cart.
+- Users can create and update their orders.
 - Users can see their order details.
 - Permissions for handling security.
